@@ -1,0 +1,131 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-inp {
+  padding: 10px;
+  border-radius: 10px;
+  width: 400px;
+  margin-bottom: 10px;
+}
+
+nav {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-nav {
+  margin-left: 50px;
+  margin-right: auto;
+}
+
+.link-cont {
+  margin-right: 50px;
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.users-cont {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.repo-desc {
+  font-size: 10px;
+}
+.username {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.repo-lang-span {
+  color: orangered;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.name-cont {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.repo-owner {
+  color: lightpink;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.avatar-img {
+  width: 50%;
+}
+
+.clone-url-inp {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  margin-right: 5px;
+}
+
+.view-ongit-a {
+  margin-bottom: 10px;
+}
+
+/* ///// */
+
+.user-card-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  padding: 10px;
+  flex-direction: column;
+}
+
+.user-avatar {
+  width: 70%;
+}
+.username {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+@media only screen and (max-width: 768px) {
+  .user-card-cont {
+    width: 100%;
+  }
+}
+
+/* ///// */
+
+.top-cont {
+  display: flex;
+}
+
+.user-avatar-img {
+  width: 30%;
+}
+.name-cont {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.bottom-cont {
+  flex: 1;
+  border-top: 1px solid lightgray;
+  margin-top: 10px;
+}
+
+.follow-cont {
+  white-space: nowrap;
+}
+.followers {
+  margin-right: 10px;
+  margin-left: 20px;
+}
